@@ -38,6 +38,6 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun FormulirDaftarDiri(modifier: Modifier = Modifier) {
-
+    var textNama by remember { mutableStateOf("") }
 
 }
