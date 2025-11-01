@@ -44,4 +44,5 @@ fun FormulirDaftarDiri(modifier: Modifier = Modifier) {
     var textStatus by remember { mutableStateOf("") }
 
     var gender: List<String> = listOf("Laki-laki", "Perempuan")
+    var statusPacaran: List<String> = listOf("Hts Aja", "Pacaran", "Udah Putus")
 
