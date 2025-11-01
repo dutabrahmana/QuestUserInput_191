@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Praktikum4Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    FormDataDiri(
+                    FormulirDaftarDiri(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -39,7 +39,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 @Preview(showBackground = true)
 @Composable
-fun FormDataDiriPreview() {
+fun FormulirDaftaranDiriPreview() {
     Praktikum4Theme {
         Greeting("Android")
     }
