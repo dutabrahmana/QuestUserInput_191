@@ -104,3 +104,17 @@ fun FormulirDaftarDiri(modifier: Modifier = Modifier) {
                                     onClick = { textJK = item }
                                 )
                                 .padding(vertical = 2.dp)
+                        ) {
+                            RadioButton(
+                                selected = textJK == item,
+                                onClick = { textJK = item }
+                            )
+                            Text(item)
+                        }
+                    }
+                }
+                Text(
+                    text = "Status Pacaran",
+                    fontWeight = FontWeight.Black,
+                    modifier = Modifier.padding(top = 8.dp)
+                )
