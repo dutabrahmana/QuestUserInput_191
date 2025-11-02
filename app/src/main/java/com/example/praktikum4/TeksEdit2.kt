@@ -146,4 +146,15 @@ fun FormulirDaftarDiri(modifier: Modifier = Modifier) {
                     label = { Text("Alamat") },
                     modifier = Modifier.fillMaxWidth()
                 )
-               
+                Button(
+                    onClick = {},
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(top = 8.dp)
+                        .height(50.dp),
+                    shape = RoundedCornerShape(20.dp),
+                    colors = ButtonDefaults.buttonColors(containerColor = Color.Blue)
+                ) {
+               ]
+       }
+}
