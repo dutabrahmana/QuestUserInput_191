@@ -118,3 +118,15 @@ fun FormulirDaftarDiri(modifier: Modifier = Modifier) {
                     fontWeight = FontWeight.Black,
                     modifier = Modifier.padding(top = 8.dp)
                 )
+                Column(
+                    verticalArrangement = Arrangement.spacedBy(4.dp)
+                ) {
+                    statusPacaran.forEach { item ->
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .selectable(
+                                    selected = textStatus == item,
+                                    onClick = { textStatus = item }
+                                )
