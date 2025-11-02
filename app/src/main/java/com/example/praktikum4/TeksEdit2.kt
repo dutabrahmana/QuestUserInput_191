@@ -84,3 +84,13 @@ fun FormulirDaftarDiri(modifier: Modifier = Modifier) {
                     value = textNama,
                     onValueChange = { textNama = it },
                     label = { Text("Nama Lengkap") },
+                    modifier = Modifier.fillMaxWidth()
+                )
+                Text(
+                    text = "Jenis Kelamin",
+                    fontWeight = FontWeight.SemiBold,
+                    modifier = Modifier.padding(top = 8.dp)
+                )
+                Column(
+                    verticalArrangement = Arrangement.spacedBy(4.dp)
+                ) {
