@@ -164,4 +164,11 @@ fun FormulirDaftarDiri(modifier: Modifier = Modifier) {
                 }
             }
         }
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(Color.LightGray)
+                .padding(top = 50.dp)
+           )
+       }
 }
