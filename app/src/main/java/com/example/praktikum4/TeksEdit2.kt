@@ -75,3 +75,12 @@ fun FormulirDaftarDiri(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .fillMaxWidth(0.9f)
                 .padding(top = 24.dp, bottom = 35.dp)
+        ) {
+            Column(
+                modifier = Modifier.padding(20.dp),
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                OutlinedTextField(
+                    value = textNama,
+                    onValueChange = { textNama = it },
+                    label = { Text("Nama Lengkap") },
