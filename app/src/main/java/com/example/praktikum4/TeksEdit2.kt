@@ -94,3 +94,13 @@ fun FormulirDaftarDiri(modifier: Modifier = Modifier) {
                 Column(
                     verticalArrangement = Arrangement.spacedBy(4.dp)
                 ) {
+                    gender.forEach { item ->
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .selectable(
+                                    selected = textJK == item,
+                                    onClick = { textJK = item }
+                                )
+                                .padding(vertical = 2.dp)
