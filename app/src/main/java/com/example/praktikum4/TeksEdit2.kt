@@ -46,3 +46,11 @@ fun FormulirDaftarDiri(modifier: Modifier = Modifier) {
     var gender: List<String> = listOf("Laki-laki", "Perempuan")
     var statusPacaran: List<String> = listOf("Hts Aja", "Pacaran", "Udah Putus")
 
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(top = 50.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Top
+    ) {
+       
