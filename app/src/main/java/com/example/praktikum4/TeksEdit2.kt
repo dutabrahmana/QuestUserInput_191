@@ -53,4 +53,18 @@ fun FormulirDaftarDiri(modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top
     ) {
-       
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(80.dp)
+                .background(Color.Green),
+
+            contentAlignment = Alignment.Center
+        ) {
+            Text(
+                text = "Formulir Pendaftaran",
+                color = Color.Blue,
+                fontWeight = FontWeight.Black,
+                fontSize = 22.sp
+            )
+        }
