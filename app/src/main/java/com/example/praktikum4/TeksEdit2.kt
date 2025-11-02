@@ -130,3 +130,20 @@ fun FormulirDaftarDiri(modifier: Modifier = Modifier) {
                                     selected = textStatus == item,
                                     onClick = { textStatus = item }
                                 )
+                                .padding(vertical = 2.dp)
+                        ) {
+                            RadioButton(
+                                selected = textStatus == item,
+                                onClick = { textStatus = item }
+                            )
+                            Text(item)
+                        }
+                    }
+                }
+                OutlinedTextField(
+                    value = textAlamat,
+                    onValueChange = { textAlamat = it },
+                    label = { Text("Alamat") },
+                    modifier = Modifier.fillMaxWidth()
+                )
+               
