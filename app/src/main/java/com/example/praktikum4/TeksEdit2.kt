@@ -155,6 +155,13 @@ fun FormulirDaftarDiri(modifier: Modifier = Modifier) {
                     shape = RoundedCornerShape(20.dp),
                     colors = ButtonDefaults.buttonColors(containerColor = Color.Blue)
                 ) {
-               ]
-       }
+                    Text(
+                        text = "Submit",
+                        color = Color.Red,
+                        fontWeight = FontWeight.Bold,
+                        fontSize = 16.sp
+                    )
+                }
+            }
+        }
 }
