@@ -68,3 +68,10 @@ fun FormulirDaftarDiri(modifier: Modifier = Modifier) {
                 fontSize = 22.sp
             )
         }
+        Card(
+            shape = RoundedCornerShape(20.dp),
+            elevation = CardDefaults.cardElevation(10.dp),
+            colors = CardDefaults.cardColors(containerColor = Color.White),
+            modifier = Modifier
+                .fillMaxWidth(0.9f)
+                .padding(top = 24.dp, bottom = 35.dp)
